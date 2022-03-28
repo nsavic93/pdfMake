@@ -136,17 +136,18 @@ export class AppComponent {
       margin: [0, 0, 0, 0],
       content: [
         {
-          
+          margin:[-15,0,0,0],
           columns: [
             [
+              
               { text: 'EVIDENCIJA UTROŠKA GORIVA I MAZIVA', fontSize: 10 , margin:[100,0,0,10]},
               {
                 table: {
-                 
+                  heights: [20,30,30,30,30,30,30,30,30,30,30],
                   widths: [
                     '7%',
-                    '15%',
-                    '15%',
+                    '18%',
+                    '18%',
                     '10%',
                     '8%',
                     '10%',
@@ -215,7 +216,25 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: this.aaa,
+                        text: "",
+                        alignment: 'center',
+                        fontSize: 7,
+                        margin: [0, 10, 0, 10],
+                        
+                        
+                      },
+                      { text: '', alignment: 'center' },
+                      { text: '', alignment: 'center' },
+                      { text: '', alignment: 'center' },
+                      { text: '', alignment: 'center' },
+                      { text: '', alignment: 'center' },
+                      { text: '', alignment: 'center' },
+                      { text: '', alignment: 'center' },
+                      { text: '', alignment: 'center' },
+                    ],
+                    [
+                      {
+                        text: "",
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -231,7 +250,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: this.aaa,
+                        text:"",
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -247,7 +266,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: this.aaa,
+                        text: "",
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -263,7 +282,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: this.aaa,
+                        text: "",
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -279,7 +298,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: this.aaa,
+                        text: "",
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -295,7 +314,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: this.aaa,
+                        text: "",
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -311,7 +330,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: this.aaa,
+                        text: "",
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -327,7 +346,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: this.aaa,
+                        text: "",
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -343,23 +362,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: this.aaa,
-                        alignment: 'center',
-                        fontSize: 7,
-                        margin: [0, 10, 0, 10],
-                      },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
-                    ],
-                    [
-                      {
-                        text: this.aaa,
+                        text: "",
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -394,7 +397,7 @@ export class AppComponent {
                       {
                         text: 'Napomena',
                         fontSize: 6,
-                        margin: [0, 0, 0, 50],
+                        margin: [0, 0, 0, 30],
                         colSpan: 6,
                       },
                       { text: '', margin: [0, 25, 0, 20] },
@@ -406,7 +409,7 @@ export class AppComponent {
                         text: '................................................................ (evidentirao)',
                         fontSize: 7,
                         alignment: 'center',
-                        margin: [0, 50, 0, 0],
+                        margin: [0, 30, 0, 0],
                         colSpan: 3,
                       },
                       { text: '', alignment: 'center', margin: [15, 0, 15] },
@@ -419,7 +422,7 @@ export class AppComponent {
 
             [
               {
-                margin: [15, -15, 0, -10],
+                margin: [35, -15, 0, -10],
                 table: {
                   widths: [160, 60, 60, 50],
                   body: [
