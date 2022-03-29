@@ -454,7 +454,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: 'Naziv privrednog drustva, odnosno preduzetnika ...............................................................................................................',
+                        text: 'Naziv privrednog društva, odnosno preduzetnika ...............................................................................................................',
                         fontSize: 7,
                         colSpan: 4,
                         margin: [0, 10, 0, 5],
@@ -540,7 +540,7 @@ export class AppComponent {
                           body: [
                             [
                               {
-                                text: 'Prezime i ime vozaca',
+                                text: 'Prezime i ime vozača',
                                 margin: [0, 5, 0, 5],
                                 border: [false, false, false, false],
                                 fontSize: 7,
@@ -564,7 +564,7 @@ export class AppComponent {
                             ],
                             [
                               {
-                                text: 'Prezime i ime suvozaca:',
+                                text: 'Prezime i ime suvozača:',
                                 margin: [0, 2, 0, 2],
                                 border: [false, false, false, false],
                                 fontSize: 7,
@@ -595,7 +595,7 @@ export class AppComponent {
                           body: [
                             [
                               {
-                                text: 'Prezime i ime lica koja vrse utovar i istovar, a prevoze se u prostoru odredjenom za smestaj tereta:',
+                                text: 'Prezime i ime lica koja vrše utovar i istovar, a prevoze se u prostoru odredjenom za smeštaj tereta:',
                                 margin: [0, 2, 0, 2],
                                 fontSize: 7,
                                 border: [false, false, false, false],
@@ -905,7 +905,7 @@ export class AppComponent {
                           body: [
                             [
                               {
-                                text: 'Potvrda o ispravnosti vozila za voznju:',
+                                text: 'Potvrda o ispravnosti vozila za vožnju:',
                                 colSpan: 3,
                                 fontSize: 7,
                                 margin: [0, -10, 0, 5],
@@ -951,7 +951,7 @@ export class AppComponent {
                                     ],
                                     [
                                       {
-                                        text: '(Potpis vozaca)',
+                                        text: '(Potpis vozača)',
                                         fontSize: 7,
                                         margin: [0, 5, 0, -10],
                                         alignment: 'center',
@@ -997,7 +997,7 @@ export class AppComponent {
                                     ],
                                     [
                                       {
-                                        text: '(Potpis ovlascenog lica za izdavanje putnog naloga)',
+                                        text: '(Potpis ovlašćenog lica za izdavanje putnog naloga)',
                                         fontSize: 7,
                                         margin: [0, 5, 0, -10],
                                         alignment: 'center',
