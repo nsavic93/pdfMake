@@ -75,32 +75,19 @@ export class AppComponent {
         margin: [0, 25, 0, 20],
       },
     ],
-    [
-      { text: 'Datum', style: 'tableHeader' },
-      { text: 'mesto tankovanja', style: 'tableHeader' },
-      { text: 'mesto tankovanja', style: 'tableHeader' },
-      { text: 'mesto tankovanja', style: 'tableHeader' },
-      { text: 'mesto tankovanja', style: 'tableHeader' },
-      { text: 'mesto tankovanja', style: 'tableHeader' },
-      { text: 'mesto tankovanja', style: 'tableHeader' },
-      { text: 'mesto tankovanja', style: 'tableHeader' },
-      { text: 'mesto tankovanja', style: 'tableHeader' },
-    ],
+
     [
       {
         text: '',
-        style: 'tableHeader',
-        alignment: 'center',
-        margin: [0, 25, 0, 20],
       },
-      { text: '', style: 'tableHeader' },
-      { text: '', style: 'tableHeader' },
-      { text: '', style: 'tableHeader' },
-      { text: '', style: 'tableHeader' },
-      { text: '', style: 'tableHeader' },
-      { text: '', style: 'tableHeader' },
-      { text: '', style: 'tableHeader' },
-      { text: '', style: 'tableHeader' },
+      { text: '' },
+      { text: '' },
+      { text: '' },
+      { text: '' },
+      { text: '' },
+      { text: '' },
+      { text: '' },
+      { text: '' },
     ],
     [
       {
@@ -136,14 +123,17 @@ export class AppComponent {
       margin: [0, 0, 0, 0],
       content: [
         {
-          margin:[-15,0,0,0],
+          margin: [-15, 0, 0, 0],
           columns: [
             [
-              
-              { text: 'EVIDENCIJA UTROŠKA GORIVA I MAZIVA', fontSize: 10 , margin:[100,0,0,10]},
+              {
+                text: 'EVIDENCIJA UTROŠKA GORIVA I MAZIVA',
+                fontSize: 10,
+                margin: [100, 0, 0, 10],
+              },
               {
                 table: {
-                  heights: [20,30,30,30,30,30,30,30,30,30,30],
+                  heights: [20, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
                   widths: [
                     '7%',
                     '18%',
@@ -157,16 +147,15 @@ export class AppComponent {
                   ],
 
                   body: [
-                    
                     [
                       {
-                        text: 'Datum',
+                        text: this.tableBody[0][0],
                         fontSize: 7,
                         alignment: 'center',
                         margin: [0, 18, 0, 15],
                       },
                       {
-                        text: 'Mjesto tankovanja',
+                        text: this.tableBody[0][1],
                         fontSize: 7,
                         alignment: 'center',
                         margin: [0, 15, 0, 15],
@@ -175,7 +164,7 @@ export class AppComponent {
                         text: 'Stanje brojila km',
                         fontSize: 7,
                         alignment: 'center',
-                        margin: [0, 15, 0, 15],
+                        margin: [0, 18, 0, 15],
                       },
                       {
                         text: 'Plinsko ulje',
@@ -216,15 +205,23 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: "",
+                        text: '',
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
-                        
-                        
                       },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
+                      {
+                        text: this.tableBody[1][0],
+                        alignment: 'center',
+                        fontSize: 7,
+                        margin: [0, 10, 0, 10],
+                      },
+                      {
+                        text: this.tableBody[1][1],
+                        fontSize: 7,
+                        margin: [0, 10, 0, 10],
+                        alignment: 'center',
+                      },
                       { text: '', alignment: 'center' },
                       { text: '', alignment: 'center' },
                       { text: '', alignment: 'center' },
@@ -234,23 +231,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: "",
-                        alignment: 'center',
-                        fontSize: 7,
-                        margin: [0, 10, 0, 10],
-                      },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
-                      { text: '', alignment: 'center' },
-                    ],
-                    [
-                      {
-                        text:"",
+                        text: '',
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -266,7 +247,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: "",
+                        text: '',
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -282,7 +263,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: "",
+                        text: '',
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -298,7 +279,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: "",
+                        text: '',
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -314,7 +295,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: "",
+                        text: '',
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -330,7 +311,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: "",
+                        text: '',
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -346,7 +327,7 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: "",
+                        text: '',
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -362,7 +343,23 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: "",
+                        text: '',
+                        alignment: 'center',
+                        fontSize: 7,
+                        margin: [0, 10, 0, 10],
+                      },
+                      { text: '', alignment: 'center' },
+                      { text: '', alignment: 'center' },
+                      { text: '', alignment: 'center' },
+                      { text: '', alignment: 'center' },
+                      { text: '', alignment: 'center' },
+                      { text: '', alignment: 'center' },
+                      { text: '', alignment: 'center' },
+                      { text: '', alignment: 'center' },
+                    ],
+                    [
+                      {
+                        text: '',
                         alignment: 'center',
                         fontSize: 7,
                         margin: [0, 10, 0, 10],
@@ -454,19 +451,66 @@ export class AppComponent {
                     ],
                     [
                       {
-                        text: 'Naziv privrednog društva, odnosno preduzetnika ...............................................................................................................',
+                        text: 'Naziv privrednog društva, odnosno preduzetnika ',
                         fontSize: 7,
-                        colSpan: 4,
-                        margin: [0, 10, 0, 5],
+                        colSpan: 1,
+                        margin: [0, 10, 0, 0],
                         border: [false, false, false, false],
                       },
+                      {
+                        table: {
+                          widths: ["*"],
+                          body: [
+
+                            [
+                              {
+                                text: 'PETAR PERIC ',
+                                fontSize: 7,
+
+                                margin: [-20, 6, 0, 0],
+                                border: [false, false, false, false],
+                              },
+                            ],
+                            [
+                              {
+                                text: ' .............................................................................................................',
+                                fontSize: 7,
+
+                                margin: [-20, -11, 0, 0],
+                                border: [false, false, false, false],
+                              },
+                            ],
+                          ],
+                        },
+                        
+                        // text:'',
+                        // fontSize: 7,
+                        colSpan: 3,
+                        // margin: [0, 10, 0, 5],
+                        border: [false, false, false, false],
+                      },
+                      
                     ],
                     [
                       {
-                        text: '  .................................................................................................................................................................................................',
+                        table: {
+                          widths: ["*"],
+                          body: [
+
+                            [
+                              {
+                                text: 'PRIVREDNO DRUSTVO ',
+                                fontSize: 7,
+
+                                margin: [0, 7, 0, 0],
+                                border: [false, false, false, true],
+                              },
+                            ],
+                          ],
+                        },
                         colSpan: 4,
                         fontSize: 7,
-                        margin: [0, 5, 0, 5],
+                        margin: [0, -5, 0, 0],
                         border: [false, false, false, false],
                       },
                     ],
@@ -492,7 +536,7 @@ export class AppComponent {
                         fontSize: 15,
                         margin: [-30, 5, 0, 0],
                         border: [false, false, false, false],
-                        bold:true
+                        bold: true,
                       },
                       {
                         text: '',
@@ -963,14 +1007,14 @@ export class AppComponent {
                                 fontSize: 7,
                                 margin: [0, 9, 0, 5],
                                 alignment: 'center',
-                                border:[false,false,false,false]
+                                border: [false, false, false, false],
                               },
                               {
                                 text: '(M.P.)',
                                 fontSize: 7,
                                 margin: [0, 27, 0, 5],
                                 alignment: 'center',
-                                border:[false,false,false,false]
+                                border: [false, false, false, false],
                               },
                               {
                                 table: {
@@ -1009,7 +1053,7 @@ export class AppComponent {
                                 fontSize: 7,
                                 margin: [0, 9, 0, 5],
                                 alignment: 'center',
-                                border:[false,false,false,false]
+                                border: [false, false, false, false],
                               },
                             ],
                           ],
@@ -1062,6 +1106,7 @@ export class AppComponent {
         // },
       ],
     };
+
     pdfMake.createPdf(documentDefinition).open();
   }
   testFunction() {
